@@ -7,6 +7,7 @@
 body{
   font-size: 1rem;
   font-family: 'Fredoka', sans-serif;
+  
 }
 
 h1{
@@ -25,9 +26,9 @@ p{
 }
 
 img{
-height: 100px;
-width: 100px;
-float: left;
+  height: 100px;
+  width: 100px;
+  float: left;
 }
 
 
@@ -43,8 +44,9 @@ li{
   padding: 3px;
   
 }
-a{
+ahover{
   color:deepskyblue;
+  text-decoration: none;
 }
 
 
@@ -64,13 +66,18 @@ a{
 
 
 
-.info-foto{
-  background-color: black;
-  height: 100px;
-  max-width: 350px;
 
-}
 
 .nome{
   font-size: 27px;
+}
+
+.adj{
+  background-color: black;
+}
+
+.float{
+  float: left;
+  width: calc(100% / 3);
+  padding: 15px;
 }
